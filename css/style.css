@@ -4,7 +4,7 @@
 	/*border: 1px solid #444;*/
 	/*background: #9c0;*/
 	/*min-height: 50px;*/
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 }
 
 /*end temp*/
@@ -23,6 +23,10 @@ body{
 a{
     text-decoration: none;
     color: #010005;
+}
+
+a:hover{
+	color: #7F7C8C;
 }
 
 .bordered{
@@ -49,14 +53,50 @@ body{
 	margin-bottom: 20px;
 }
 
+/*header-line_top*/
+
 .header-line_top{
-	min-height: 50px;
+	margin-top: 20px;
 }
+
+.site-slogan-link{
+	font-size: 14px;
+}
+
+.site-phone-link{
+	font-size: 27px;
+}
+
+.site-phone{
+	margin-top: 12px;
+}
+
+.site-login{
+	margin-top: 14px;
+}
+
+.site-login-link, .cart-text, .cart-link{
+	font-size: 18px;
+}
+
+.cart-wrap{
+	float: right;
+	margin-top: 8px;
+}
+
+.cart-link{
+	padding: 5px;
+	margin-left: 5px;
+}
+
 
 
 .cart-link{
 	display: inline-block;
-}
+} 
+
+/*END header-line_top*/
+
 
 .top-link-item{
 	padding-left: 60px;
