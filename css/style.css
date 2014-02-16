@@ -1,0 +1,45 @@
+/*temp*/
+
+.column{
+	border: 1px solid #444;
+	background: #9c0;
+	min-height: 50px;
+	margin-bottom: 20px;
+}
+
+/*end temp*/
+
+html{
+	min-height: 100%;
+}
+
+body{
+	height: 100%;
+	font-family: PT sans narrow, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #010005;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+body{
+	font-family: 'PT Sans Narrow', sans-serif;
+	/*background: #444;*/
+}
+
+.header-line{
+	margin-bottom: 20px;
+}
+
+.header-line_top{
+	min-height: 50px;
+}
+

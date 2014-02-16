@@ -1,0 +1,18 @@
+@media screen and (max-width: 640px) {
+.size_1, 
+.size_2, 
+.size_3, 
+.size_4, 
+.size_5, 
+.size_6, 
+.size_7, 
+.size_8, 
+.size_9, 
+.size_10,
+.size_11,
+.size_12 {
+float: none;
+margin: 0 0 20px 0;
+width: 100%;
+}
+}
