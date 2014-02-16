@@ -15,13 +15,23 @@ html{
 
 body{
 	height: 100%;
-	font-family: PT sans narrow, sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
+	line-height: 1;
 }
 
 
 a{
     text-decoration: none;
     color: #010005;
+}
+
+.bordered{
+	bottom: 1px solid #e6e6e7;
+}
+
+.bordered-half{
+	border-top:1px solid #e6e6e7;
+	border-bottom:1px solid #e6e6e7;
 }
 
 .container {
@@ -43,3 +53,7 @@ body{
 	min-height: 50px;
 }
 
+
+.cart-link{
+	display: inline-block;
+}
