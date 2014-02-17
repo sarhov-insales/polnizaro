@@ -22,6 +22,10 @@ a:hover {
 color:#7F7C8C;
 }
 
+img{
+	max-width: 100%;
+}
+
 .bordered {
 border:1px solid #e6e6e7;
 }
@@ -37,6 +41,10 @@ border-bottom:1px solid #e6e6e7;
 	margin-bottom: 20px;
 }
 
+.sidebar-box{
+	margin-bottom: 20px;
+}
+
 .sidebar-list{
 	padding: 20px 5px 20px 30px;
 }
@@ -45,6 +53,16 @@ border-bottom:1px solid #e6e6e7;
 	font-size: 18px;
 	margin-bottom: 15px;
 }
+
+.sidebar-list-item.sidebar-list-item_links{
+	font-size: 21px;
+}
+
+.sidebar-list_links{
+	padding-left: 5px;
+}
+
+
 
 
 
