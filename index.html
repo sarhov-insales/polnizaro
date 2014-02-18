@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/media.css">
     <script src="js/libs/modernizr-2.6.2.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.cookie/1.4.0/jquery.cookie.js"></script>
+    <script src="js/functions.js"></script>
 </head>
 
 <body>
@@ -34,12 +36,10 @@
                     </h2>
                 </div>
                 <!-- site-name-wrap -->
-                <div class="column site-phone size_3">
-                    <a href="tel:+374557703" class="site-phone-link">+374 55 77 03</a> 
+                <div class="column site-phone size_3"> <a href="tel:+374557703" class="site-phone-link">+374 55 77 03</a> 
                 </div>
                 <!-- site-phone -->
-                <div class="column site-login">
-                    <a href="" class="site-login-link">Вход</a> 
+                <div class="column site-login"> <a href="" class="site-login-link">Вход</a> 
                 </div>
                 <!-- site-login -->
                 <div class="column cart-wrap  ">
@@ -50,23 +50,17 @@
                     </a>
                 </div>
                 <!-- cart -->
-
             </section>
             <!-- header-line_top -->
-            <section class="row header-line header-line_bottom  bordered-half cf">
-                <a href="" class="column size_3 top-link-item top-link-item_1">Парная одежда для самых требовательных родителей и детей </a>
-                <a href="" class="column size_3 top-link-item top-link-item_2">Доставка по Москве и Санкт-Петербургу на второй день после заказа</a>
-                <a href="" class="column size_2 top-link-item top-link-item_3">Моментальный заказ по телефону</a>
-                <a href="" class="column size_4 top-link-item top-link-item_4">Любые нестандартные размеры сшиты для вас в кратчайшие сроки без дополнительной оплаты</a>
+            <section class="row header-line header-line_bottom  bordered-half cf"> <a href="" class="column size_3 top-link-item top-link-item_1">Парная одежда для самых требовательных родителей и детей </a>  <a href="" class="column size_3 top-link-item top-link-item_2">Доставка по Москве и Санкт-Петербургу на второй день после заказа</a>  <a href="" class="column size_2 top-link-item top-link-item_3">Моментальный заказ по телефону</a>  <a href="" class="column size_4 top-link-item top-link-item_4">Любые нестандартные размеры сшиты для вас в кратчайшие сроки без дополнительной оплаты</a> 
             </section>
             <!-- header-line_bottom -->
         </header>
         <!-- header-wrap -->
         <section class="row site-nav-wrap cf">
             <nav class="site-nav column size_9">
-                <div class="column size_6 breadcrumbs">
-                    <a href="" class="breadcrumbs-item">Главная </a>
-                     - <span class="breadcrumbs-item">Мама и дочка</span>
+                <div class="column size_6 breadcrumbs"> <a href="" class="breadcrumbs-item">Главная </a> -
+                    <span class="breadcrumbs-item">Мама и дочка</span>
                 </div>
                 <!-- breadcrumbs -->
                 <div class="column product-view-types">
@@ -74,79 +68,215 @@
                     <a href="" class="product-view-type-item product-view-type_col-two view-changer bordered active"></a>
                     <a href="" class="product-view-type-item view-changer product-view-type_col-four bordered"></a>
                 </div>
-                 <!-- product-view-types -->
-                <div class="column pagination">
-                    <a href="" class="pagination-item">1</a>
-                    <span class="pagination-item current bordered">2</span>
-                    <a href="" class="pagination-item">3</a>
-                    <a href="" class="pagination-item">4</a>
-                    <a href="" class="pagination-item">5</a>
-
+                <!-- product-view-types -->
+                <div class="column pagination"> <a href="" class="pagination-item">1</a> 
+                    <span class="pagination-item current bordered">2</span> <a href="" class="pagination-item">3</a>  <a href="" class="pagination-item">4</a>  <a href="" class="pagination-item">5</a> 
                 </div>
-               <!-- pagination -->
+                <!-- pagination -->
             </nav>
         </section>
         <!-- site-nav-wrap -->
-
         <section class="row site-content">
             <aside class="column size_3 sidebar-wrap">
                 <div class="sidebar-box sidebar-box_catalog">
-                    <h3 class="sidebar-box-title sidebar-box-title_catalog box-title">
-                        Каталог
-                    </h3>
+                    <h3 class="sidebar-box-title sidebar-box-title_catalog box-title">Каталог</h3>
                     <div class="sidebar-box-content sidebar-box-content_catalog-links bordered-half">
                         <ul class="sidebar-list sidebar-list_catalog">
-                            <li class="sidebar-list-item sidebar-list-item_catalog">
-                                <a href="#" class="sidebar-list-item-link sidebar-list-item-link_catalog">Мама и дочка</a>
+                            <li class="sidebar-list-item sidebar-list-item_catalog"> <a href="#" class="sidebar-list-item-link sidebar-list-item-link_catalog">Мама и дочка</a> 
                             </li>
-                            <li class="sidebar-list-item sidebar-list-item_catalog">
-                                <a href="#" class="sidebar-list-item-link sidebar-list-item-link_catalog">Папа и сын</a>
+                            <li class="sidebar-list-item sidebar-list-item_catalog"> <a href="#" class="sidebar-list-item-link sidebar-list-item-link_catalog">Папа и сын</a> 
                             </li>
-                            <li class="sidebar-list-item sidebar-list-item_catalog">
-                                <a href="#" class="sidebar-list-item-link sidebar-list-item-link_catalog">Распродажа</a>
+                            <li class="sidebar-list-item sidebar-list-item_catalog"> <a href="#" class="sidebar-list-item-link sidebar-list-item-link_catalog">Распродажа</a> 
                             </li>
-                            <li class="sidebar-list-item sidebar-list-item_catalog">
-                                <a href="#" class="sidebar-list-item-link sidebar-list-item-link_catalog">Вещи из шелка</a>
+                            <li class="sidebar-list-item sidebar-list-item_catalog"> <a href="#" class="sidebar-list-item-link sidebar-list-item-link_catalog">Вещи из шелка</a> 
                             </li>
-
                         </ul>
                     </div>
                 </div>
                 <!-- sidebar-box_catalog -->
-
                 <div class="sidebar-box sidebar-box_links">
                     <div class="sidebar-box-content sidebar-box-content_links-links">
                         <ul class="sidebar-list sidebar-list_links">
-                            <li class="sidebar-list-item sidebar-list-item_links">
-                                <a href="#" class="sidebar-list-item-link sidebar-list-item-link_links">Доставка и оплата</a>
+                            <li class="sidebar-list-item sidebar-list-item_links"> <a href="#" class="sidebar-list-item-link sidebar-list-item-link_links">Доставка и оплата</a> 
                             </li>
-                            <li class="sidebar-list-item sidebar-list-item_links">
-                                <a href="#" class="sidebar-list-item-link sidebar-list-item-link_links">О компании</a>
+                            <li class="sidebar-list-item sidebar-list-item_links"> <a href="#" class="sidebar-list-item-link sidebar-list-item-link_links">О компании</a> 
                             </li>
-                            <li class="sidebar-list-item sidebar-list-item_links">
-                                <a href="#" class="sidebar-list-item-link sidebar-list-item-link_links">Контакты</a>
+                            <li class="sidebar-list-item sidebar-list-item_links"> <a href="#" class="sidebar-list-item-link sidebar-list-item-link_links">Контакты</a> 
                             </li>
                         </ul>
                     </div>
                 </div>
                 <!-- sidebar-box_links -->
-
                 <div class="sidebar-box sidebar-box_widget">
-                    <h3 class="sidebar-box-title sidebar-box-title_catalog box-title">
-                        Товар дня
-                    </h3>
+                    <h3 class="sidebar-box-title sidebar-box-title_catalog box-title">Товар дня</h3>
                     <div class="sidebar-box-content sidebar-box-content_widget-content editor bordered">
-                       <a href="#">
-                        <img src="" alt="">
-                       </a>
+                        <a href="#">
+                            <img src="images/day-item.jpg" alt="day-image">
+                        </a>
                     </div>
                 </div>
-
                 <!-- sidebar-box-widget -->
             </aside>
-            <main class="column size_9 main-content"></main>
+            <!-- main-sidebar -->
+            <main class="column size_9 main-content">
+                <div class="content-box content-box_items cf">
+                    <div class="content-box_items__wrap product-box-wrap">
+                        <div class="column size_6 product-box">
+                            <figure class="product-box-item-image">
+                                <a href="#" class="product-box-item-img-link" style="background-image:url('images/product-image1.png');"></a>
+                                <!-- <div class="fast-box_buy fast-box">Купить</div> <div class="fast-box_view fast-box">Быстрий просмотр</div> -->
+                            </figure>
+                            <div class="product-box-item-info-wrap">
+                                <!-- <h4 class="product-box-item-title"> <a href="#" class="product-box-item-title-link"></a> </h4> -->
+                                <h5 class="product-box-item-short-description"> <a href="#" class="product-box-item-short-description-link">Комплект платьев с вырезом на спине и поясным бантом</a> 
+                                </h5>
+                            </div>
+                            <div class="product-box-item-buy-wrap">
+                                <span class="product-box-item-price">4500 Руб</span>
+                            </div>
+                        </div>
+                        <!-- product-box -->
+                        <div class="column size_6 product-box">
+                            <figure class="product-box-item-image">
+                                <a href="#" class="product-box-item-img-link" style="background-image:url('images/product-image1.png');"></a>
+                            </figure>
+                            <div class="product-box-item-info-wrap">
+                                <!-- <h4 class="product-box-item-title"> <a href="#" class="product-box-item-title-link"></a> </h4> -->
+                                <h5 class="product-box-item-short-description"> <a href="#" class="product-box-item-short-description-link">Комплект платьев с вырезом на спине и поясным бантом</a> 
+                                </h5>
+                            </div>
+                            <div class="product-box-item-buy-wrap">
+                                <span class="product-box-item-price">4500 Руб</span>
+                            </div>
+                        </div>
+                        <!-- product-box -->
+                        <div class="column size_6 product-box">
+                            <figure class="product-box-item-image">
+                                <a href="#" class="product-box-item-img-link" style="background-image:url('images/product-image1.png');"></a>
+                            </figure>
+                            <div class="product-box-item-info-wrap">
+                                <!-- <h4 class="product-box-item-title"> <a href="#" class="product-box-item-title-link"></a> </h4> -->
+                                <h5 class="product-box-item-short-description"> <a href="#" class="product-box-item-short-description-link">Комплект платьев с вырезом на спине и поясным бантом</a> 
+                                </h5>
+                            </div>
+                            <div class="product-box-item-buy-wrap">
+                                <span class="product-box-item-price">4500 Руб</span>
+                            </div>
+                        </div>
+                        <!-- product-box -->
+                        <div class="column size_6 product-box">
+                            <figure class="product-box-item-image">
+                                <a href="#" class="product-box-item-img-link" style="background-image:url('images/product-image1.png');"></a>
+                            </figure>
+                            <div class="product-box-item-info-wrap">
+                                <!-- <h4 class="product-box-item-title"> <a href="#" class="product-box-item-title-link"></a> </h4> -->
+                                <h5 class="product-box-item-short-description"> <a href="#" class="product-box-item-short-description-link">Комплект платьев с вырезом на спине и поясным бантом</a> 
+                                </h5>
+                            </div>
+                            <div class="product-box-item-buy-wrap">
+                                <span class="product-box-item-price">4500 Руб</span>
+                            </div>
+                        </div>
+                        <!-- product-box -->
+                        <div class="column size_6 product-box">
+                            <figure class="product-box-item-image">
+                                <a href="#" class="product-box-item-img-link" style="background-image:url('images/product-image1.png');"></a>
+                            </figure>
+                            <div class="product-box-item-info-wrap">
+                                <!-- <h4 class="product-box-item-title"> <a href="#" class="product-box-item-title-link"></a> </h4> -->
+                                <h5 class="product-box-item-short-description"> <a href="#" class="product-box-item-short-description-link">Комплект платьев с вырезом на спине и поясным бантом</a> 
+                                </h5>
+                            </div>
+                            <div class="product-box-item-buy-wrap">
+                                <span class="product-box-item-price">4500 Руб</span>
+                            </div>
+                        </div>
+                        <!-- product-box -->
+                        <div class="column size_6 product-box">
+                            <figure class="product-box-item-image">
+                                <a href="#" class="product-box-item-img-link" style="background-image:url('images/product-image1.png');"></a>
+                            </figure>
+                            <div class="product-box-item-info-wrap">
+                                <!-- <h4 class="product-box-item-title"> <a href="#" class="product-box-item-title-link"></a> </h4> -->
+                                <h5 class="product-box-item-short-description"> <a href="#" class="product-box-item-short-description-link">Комплект платьев с вырезом на спине и поясным бантом</a> 
+                                </h5>
+                            </div>
+                            <div class="product-box-item-buy-wrap">
+                                <span class="product-box-item-price">4500 Руб</span>
+                            </div>
+                        </div>
+                        <!-- product-box -->
+                        <div class="column size_6 product-box">
+                            <figure class="product-box-item-image">
+                                <a href="#" class="product-box-item-img-link" style="background-image:url('images/product-image1.png');"></a>
+                            </figure>
+                            <div class="product-box-item-info-wrap">
+                                <!-- <h4 class="product-box-item-title"> <a href="#" class="product-box-item-title-link"></a> </h4> -->
+                                <h5 class="product-box-item-short-description"> <a href="#" class="product-box-item-short-description-link">Комплект платьев с вырезом на спине и поясным бантом</a> 
+                                </h5>
+                            </div>
+                            <div class="product-box-item-buy-wrap">
+                                <span class="product-box-item-price">4500 Руб</span>
+                            </div>
+                        </div>
+                        <!-- product-box -->
+                        <div class="column size_6 product-box">
+                            <figure class="product-box-item-image">
+                                <a href="#" class="product-box-item-img-link" style="background-image:url('images/product-image1.png');"></a>
+                            </figure>
+                            <div class="product-box-item-info-wrap">
+                                <!-- <h4 class="product-box-item-title"> <a href="#" class="product-box-item-title-link"></a> </h4> -->
+                                <h5 class="product-box-item-short-description"> <a href="#" class="product-box-item-short-description-link">Комплект платьев с вырезом на спине и поясным бантом</a> 
+                                </h5>
+                            </div>
+                            <div class="product-box-item-buy-wrap">
+                                <span class="product-box-item-price">4500 Руб</span>
+                            </div>
+                        </div>
+                        <!-- product-box -->
+                    </div>
+                    <section class="row site-nav-wrap cf">
+                        <nav class="site-nav column size_9">
+                            <div class="column pagination"> <a href="" class="pagination-item">1</a> 
+                                <span class="pagination-item current bordered">2</span> <a href="" class="pagination-item">3</a>  <a href="" class="pagination-item">4</a>  <a href="" class="pagination-item">5</a> 
+                            </div>
+                            <!-- pagination -->
+                        </nav>
+                    </section>
+                </div>
+                <!-- content-box -->
+
+                <div class="row subscribe-wrap bordered">
+                    <div class="column size_5 subscribe-text">Подпишитесь на рассылку о моде и роскошной жизни от руководителей марки Полины Зарецкой</div>
+                    <div class="subscribe-form-wrap column size_7">
+                        <form action="" class="subscribe-form">
+                            <input type="text" class="text-field_subscribe text-field_dark text-field">
+                            <button type="submit" class="button button_dark button_subscribe">Подписаться</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- subscribe-wrap -->
+                <section class="about-site-wrap">
+                    <div class="about-site editor">
+Одежда — совокупность изделий (чаще тканые или вязанные из различных природных или искусственных материалов), надеваемых человеком с целью обезопасить своё тело от негативного влияния окружающей среды, например, от погодных условий (холод, дождь, солнце), насекомых, токсических веществ, оружия и других угрожающих факторов для собственного здоровья. Помимо этого, одежда выполняет эстетические функции, различные её элементы наделены культурным и социальным значением. Дополняется украшениями, причёской и макияжем. Люди — единственные млекопитающие, носящие одежду, за исключением некоторых видов домашних питомцев, которых одевают их хозяева. Следует отметить, что одежда традиционно соответствует полу носителя одежды. Поэтому чаще всего по одежде можно опознать мужчину или женщину. </div>
+                </section>
+
+                <!-- about-site-wrap -->
+                <div class="bottom-nav row bordered-half">
+                    <nav class="column size_7 bottom-links">
+                        <a href="#" class="bottom-link-link"></a>
+                        <a href="#" class="bottom-link-link"></a>
+                        <a href="#" class="bottom-link-link"></a>
+                        <a href="#" class="bottom-link-link"></a>
+                        <a href="#" class="bottom-link-link"></a>
+                    </nav>
+                    <div class="column size_5 social-links"></div>
+                </div>
+<!-- bottom-nav -->
+            </main>
+            <!-- main-content -->
         </section>
-        <!-- main-content -->
+        <!-- site-content -->
     </div>
     <!-- main-container -->
 </body>
