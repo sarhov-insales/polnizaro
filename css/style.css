@@ -232,9 +232,13 @@ width:30px;
 background-position:-102px -41px;
 }
 
+.top-link-item:last-child{
+text-align: justify;
+
+}
+
 .top-link-item_4 {
 width:30%;
-text-align: justify;
 }
 
 .top-link-item_4:before {
@@ -449,7 +453,7 @@ height: 0;
 }
 
 .product-box.size_3{
-	width:23.8% ;height: 360px;
+	width:23.8% ;height: 310px;
 	margin-bottom: 30px;
 }
 
